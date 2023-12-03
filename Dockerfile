@@ -3,7 +3,7 @@ FROM php:8.0-apache
 MAINTAINER Alex Tselegidis (alextselegidis.com)
 
 ENV VERSION="1.5.0-dev.4"
-ENV BASE_URL="http://localhost"
+ENV BASE_URL="http://easyappointment.mycodedemo.com"
 ENV LANGUAGE="english"
 ENV DEBUG_MODE="FALSE"
 ENV DB_HOST="db"
