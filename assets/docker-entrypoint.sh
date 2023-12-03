@@ -23,7 +23,7 @@
 
 cp config-sample.php config.php
 
-sed -i "s|const BASE_URL      = 'http://url-to-easyappointments-directory';|const BASE_URL      = '$BASE_URL';|g" config.php
+sed -i "s|const BASE_URL      = 'http://url-to-easyappointments-directory';|const BASE_URL      = 'http://easyappointment.mycodedemo.com';|g" config.php
 sed -i "s|const LANGUAGE      = 'english';|const LANGUAGE      = '$LANGUAGE';|g" config.php
 sed -i "s|const DEBUG_MODE    = FALSE;|const DEBUG_MODE    = $DEBUG_MODE;|g" config.php
 
